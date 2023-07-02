@@ -26,7 +26,7 @@ app.post("/",function(req,res){
 
     console.log(firstname+" "+ lastname+" "+ email);
 
-   const listId = "9693393969";
+   const listId = "user-id";
    const subscribingUser = {
     FirstName: firstname,
     LastName: lastname,
@@ -63,9 +63,4 @@ app.post("/failure",function(req,res){
 app.listen(3000,function(){
     console.log("server starts at 3000");
 })
-
-
-// 7323223c060ca724f774083a056f90e5-us21
-
-// 9693393969
 
